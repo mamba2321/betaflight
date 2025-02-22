@@ -1,4 +1,6 @@
-name: Auto close bad PR
+defaults:
+  run:
+    shell: name: Auto close bad PR
 env:
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
